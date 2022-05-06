@@ -35,8 +35,8 @@ div#cor3{
     background-color: var(--cor3);
 }
 div.box{
-    height: 410px;
-    flex-basis: 240px;
+    height: 430px;
+    flex-basis: 250px;
     padding: 30px;
     color: white;
     font-family: var(--font1);
