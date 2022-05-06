@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     
 
@@ -30,11 +31,11 @@ div#cor2{
     background-color: var(--cor2);
 }
 div#cor3{
-    border-radius: 0px 5px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
     background-color: var(--cor3);
 }
 div.box{
-    height: 400px;
+    height: 410px;
     flex-basis: 240px;
     padding: 30px;
     color: white;
