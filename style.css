@@ -49,8 +49,8 @@ div#cor3{
 }
 div.box{
     height: 430px;
-    flex-basis: 250px;
-    padding: 30px;
+    flex-basis: 270px;
+    padding: 35px;
     color:var(--cor5);
     
     
@@ -64,10 +64,12 @@ div.box h1{
 }
 div.box p{
     color: var(--cor4);
-    font-family:var(--font2);
-    font-weight:200;
+    font-family:var(--font1);
+    font-weight:400;
     line-height: 20px;
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 12px;
+
 }
 div.box button{
     font-family: var(--font1);
