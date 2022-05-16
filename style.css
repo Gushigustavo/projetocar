@@ -8,15 +8,17 @@
     box-sizing: border-box;
 }
 :root{
-    --cor1:#D97925;
-    --cor2:#027373;
-    --cor3:#01403A;
+    --cor1:hsl(31, 77%, 52%);
+    --cor2:hsl(184, 100%, 22%);
+    --cor3:hsl(179, 100%, 13%);
+    --cor4:hsla(0, 0%, 100%, 0.75);
+    --cor5:hsl(0, 0%, 95%);
     --fontpadrao:Verdana, Geneva, Tahoma, sans-serif;
     --font1:'Lexend Deca', sans-serif;
     --font2:'Big Shoulders Display', cursive;
 }
 body{
-    background-color: lightgrey;
+    background-color: var(--cor5);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -41,7 +43,7 @@ div.box{
     height: 430px;
     flex-basis: 250px;
     padding: 30px;
-    color: white;
+    color:var(--cor5);
     
     
 }
@@ -53,6 +55,7 @@ div.box h1{
     
 }
 div.box p{
+    color: var(--cor4);
     font-family:var(--font1);
     font-weight:200;
     line-height: 20px;
@@ -63,21 +66,21 @@ div.box button{
     margin-top: 70px;
 }
 #btn1{
-    background-color: white;
+    background-color: var(--cor5);
     color: var(--cor1);
     width: 120px;
     height: 40px;
     border-radius: 40px;
 }
 #btn2{
-    background-color: white;
+    background-color:var(--cor5);
     color: var(--cor2);
     width: 120px;
     height: 40px;
     border-radius: 40px;
 }
 #btn3{
-    background-color: white;
+    background-color: var(--cor5);
     color: var(--cor3);
     width: 120px;
     height: 40px;
