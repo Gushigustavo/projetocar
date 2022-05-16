@@ -21,13 +21,21 @@ body{
     background-color: var(--cor5);
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+main{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+}
     
 
-}
 div#cor1{
     background-color: var(--cor1);
     border-radius: 5px 0px 0px 5px;
@@ -110,3 +118,18 @@ div.box button{
     color: white;
     border: 1px solid white;
 }
+.attribution {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: var(--cor3);
+  }
+
+  .attribution a {
+      text-decoration: none;
+      color:var(--cor1);
+  }
+
+  .attribution a:hover{
+      text-decoration: underline;
+  }
