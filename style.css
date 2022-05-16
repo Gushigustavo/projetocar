@@ -64,7 +64,7 @@ div.box h1{
 }
 div.box p{
     color: var(--cor4);
-    font-family:var(--font1);
+    font-family:var(--font2);
     font-weight:200;
     line-height: 20px;
     font-size: 15px;
