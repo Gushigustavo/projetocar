@@ -29,6 +29,8 @@ body{
     
 }
 main{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +83,7 @@ div.box button{
     width: 120px;
     height: 40px;
     border-radius: 40px;
+    transition: 600ms;
 }
 #btn2{
     background-color:var(--cor5);
@@ -88,6 +91,7 @@ div.box button{
     width: 120px;
     height: 40px;
     border-radius: 40px;
+    transition: 600ms;
 }
 #btn3{
     background-color: var(--cor5);
@@ -95,6 +99,7 @@ div.box button{
     width: 120px;
     height: 40px;
     border-radius: 40px;
+    transition: 600ms;
 }
 #btn1:hover{
     cursor: pointer;
@@ -135,3 +140,8 @@ div.box button{
   .attribution a:hover{
       text-decoration: underline;
   }
+  @media (max-width:375px) {
+     .attribution{
+         display: none;
+     } 
+}
